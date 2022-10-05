@@ -1,5 +1,6 @@
 function bindToAnArg(func, arg) {
-  // Your code here
+  func = func.bind(arg, arg)
+  return func
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
